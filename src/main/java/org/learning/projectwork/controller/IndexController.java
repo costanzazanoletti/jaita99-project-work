@@ -11,7 +11,7 @@ public class IndexController {
   public String home(Model model){
     model.addAttribute("title", "Welcome");
     model.addAttribute("user", "Ghost");
-    model.addAttribute("header", "Hello");
+    model.addAttribute("footer", "Bye Bye");
     return "home";
   }
 
